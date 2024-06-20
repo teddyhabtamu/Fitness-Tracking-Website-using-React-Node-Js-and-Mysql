@@ -1,0 +1,22 @@
+button {
+  background-color: #007BFF;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: min-content;
+  padding: 16px 26px;
+  box-shadow: 1px 20px 35px 0px rgba(0, 0, 0, 0.4);
+  /* Adjust the color as needed */
+  border: 1px solid #007BFF;
+  /* Replace with your desired color */
+
+  @media (max-width: 600px) {
+    padding: 8px 12px;
+  }
+}
